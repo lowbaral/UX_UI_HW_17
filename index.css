@@ -1,0 +1,188 @@
+body{
+    max-width: 1920px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: grey .5px solid;
+    -webkit-box-shadow: 0px 3px 6px #00000029;
+    -moz-box-shadow: 0px 3px 6px #00000029;
+         box-shadow: 0px 3px 6px #00000029;
+}
+.nav-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-Group {
+    margin-right: 45px;
+}
+.nav-item{
+margin: 0 22px;
+text-decoration: none;
+font: normal normal normal 30px/49px Tamil MN;
+letter-spacing: -3px;
+color: #292929;
+}
+.img { 
+top: 242px;
+left: 1101px;
+width: 566px;
+height: 566px;
+background: transparent url('../MySite/Images/IMG_0005.jpeg') 0% 0% no-repeat padding-box;
+padding: 1%;
+}
+.profileImg {
+display: flex;
+justify-content: right;
+margin-right: 105px;
+
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+.socials {
+align-content: space-around;
+margin-left: 105px;
+}
+
+.socialImg {
+    margin-right: 45px;
+}
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+h1 {
+margin-top: 150px;
+    margin-left: 105px;
+    font-size: 45px;
+}
+
+h2 {
+    top: 723px;
+    margin-left: 105px;
+    width: 137px;
+    height: 53px;
+    text-align: left;
+    font: normal normal normal 40px/55px Tamil MN;
+    letter-spacing: -3.38px;
+    color: #292929;
+}
+
+h3 {
+text-align: center;
+font: normal normal normal 45px/79px Tamil MN;
+color: #292929;
+}
+h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font: normal normal normal 55px/91px Tamil MN;
+    letter-spacing: 0px;
+    color: #292929;
+}
+p {
+margin-left: 105px;
+width: 683px;
+height: 266px;
+text-align: left;
+font: normal normal normal 30px/45px Tamil Sangam MN;
+letter-spacing: 0px;
+color: #292929;
+}
+.wrapperTitles {
+display: flex;
+ justify-content: space-evenly;
+ align-items:center;
+}
+.itemDiv {
+display: inline-block;
+   justify-content: space-evenly;
+   align-items:center;
+}
+.sectionServices {
+    margin-top: 525px;
+}
+.serviceTitle {
+    margin-bottom: 15px;
+}
+.servicesText{
+text-align: left;
+font: normal normal normal 30px/45px Tamil Sangam MN;
+letter-spacing: 0px;
+color: #292929;
+}
+
+#container {
+height: 645px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.selectedWorks {
+    margin: 100px;
+ }
+.tanBlock1 {
+position: relative;
+width: 500px;
+height: 500px;
+display: inline-block;
+background: #DBD4CE 0% 0% no-repeat padding-box;
+border-radius: 50px;
+margin-bottom: 85px;
+margin-right: 85px;
+}
+.tanBlock {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background: #DBD4CE 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    margin-bottom: 85px;
+    }
+.txt-box {
+position: absolute;
+top: 440px;
+right: 50px;
+font-size: 35px;
+}
+li {
+    text-align: left;
+    font: normal normal normal 40px/49px Tamil MN;
+    letter-spacing: -3px;
+    color: #292929;
+justify-content: space-evenly;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+footer {
+    padding: 7%;
+    text-align: center;
+    align-self: flex-end;
+}
+.footer-item{
+margin: 0 22px;
+text-decoration: none;
+font: normal normal normal 30px/49px Tamil MN;
+letter-spacing: -3px;
+color: #292929;
+}
