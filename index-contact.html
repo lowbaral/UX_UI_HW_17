@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link href="./css/index-contact.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,54 +14,76 @@
         </div>
         <nav class="nav-main">
             <div class="nav-Group">
-                <a href="#" class="nav-item">home</a>
-                <a href="#" class="nav-item">about</a>
-                <a href="#" class="nav-item">projects</a>
+                <a href="./index.html" class="nav-item">home</a>
+                <a href="./About Page/index.html" class="nav-item">about</a>
+                <a href="./ProjectsPage/index-projects.html" class="nav-item">projects</a>
                 <a href="#" class="nav-item">contact</a>
             </div>
         </nav>
     </header>
- <section>  
-    <div class="container">  
-    <div class="buttonResume"  align="left">
+<section>  
+
+
+
+<!-- 
+    <div class="container mx-auto box-s">
+        <div class="row">
+          <div class="col-sm-4 col-md-3 col-lg-6 col-xl-4">
+            One of three columns
+          </div>
+          <div class="col-sm-4 col-md-3 col-lg-2 col-xl-4">
+            One of three columns
+          </div>
+          <div class="col-sm-4 col-md-6 col-lg-4 col-xl-4">
+            One of three columns
+          </div>
+        </div>
+      </div> -->
+
+
+
+
+<div class="container">  
+    <!-- <div class="buttonResume">
         <button type="button">resume</button>
-    </div>
+    </div> -->
     <div class="row">
-        <div class="column">
+        <div class="col-lg-6 col-xl-6">
             <div class="sectionServices">
                 <div class="serviceTitle">
-                    <h3>services</h3>
+                    <h5>services</h5>
                 </div>
-                <div class="wrapperTitles">
+                <div class="wrapperTitles leftService">
                     <div class="itemDiv">
                         <h4 class="servicesNum">01</h4>
                             <b class="servicesText">User Experience</b>
-                            <ol class="servicesText" style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;">
-                                Mobile<br>
-                                Web<br>
+                            <ol class="servicesText2" style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;">
+                                Research<br>
+                                Testing<br>
                             </ol>
                     </div>
                     <div class="itemDiv">
                         <h4 class="servicesNum">02</h4>
-                            <b class="servicesText">Art Direction</b>
-                            <ol class="servicesText" style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;">
-                                Mobile<br>
-                                Web<br>
+                            <b class="servicesText">UI Direction</b>
+                            <ol class="servicesText2" style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;">
+                                Style Guide<br>
+                                Wireframing<br>
                             </ol>
                     </div>
                     <div class="itemDiv">
                          <h4 class="servicesNum">03</h4>
-                            <b class="servicesText">Coding</b>
-                            <ol class="servicesText" style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;">
-                            Mobile<br>
-                            Web<br>
+                            <b class="servicesText">Coding Aid</b>
+                            <ol class="servicesText2" style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;">
+                            HTML/CSS<br>
+                            JQuery<br>
                             </ol>
                     </div>
                 </div>
             </div>        
         </div>
-        <div class="column">
-            <div class="container">
+        <div class="contactSection col-lg-6 col-xl-6">
+            <h3>contact</h3>
+            <div class="container contact">
                 <form> 
                     <input name="name" type="text" class="feedback-input" placeholder="Name" />   
                     <input name="email" type="text" class="feedback-input" placeholder="Email" />
@@ -73,11 +96,10 @@
 </div> 
 </section>
 <section>  
-    <div class="socialTitles"  align="center">
-        <h2 class="socialTitles" >socials</h2>
+    <div class="socialTitles" align="center">
+        <h2 class="socialTitles" >connect</h2>
         <div class="socials"> 
-            <img class="socialImg" src="./Images/Icon awesome-linkedin-in@2x.png" alt="LinkedIn" width="50.5px" height="50.5px">
-            <img class="socialImg" src="./Images/Icon awesome-instagram@2x.png" alt="Instagram" width="50px" height="50px">
+            <img class="socialImg1" src="./Images/Icon awesome-linkedin-in@2x.png" alt="LinkedIn" width="50.5px" height="50.5px">
             <img class="socialImg" src="./Images/Icon awesome-behance@2x.png" alt="Behance" width="60px" height="40px">
             <img class="socialImg" src="./Images/Icon awesome-dribbble@2x.png" alt="drrrible" width="50px" height="50px">
         </div>

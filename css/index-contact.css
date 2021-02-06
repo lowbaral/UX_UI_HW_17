@@ -42,7 +42,8 @@ position: relative;
 .nav-item:hover:after { 
     width: 100%; 
     left: 0; 
-  }
+}
+
 .img { 
 top: 242px;
 left: 1101px;
@@ -63,15 +64,22 @@ margin-right: 125px;
     text-align: center;
 }
 
+.contact {
+    margin-left: 30px;
+}
 .socials {
 align-content: space-around;
-margin-left: 105px;
+margin-left: 35px;
+margin-top: 45px;
 }
 
 .socialImg {
     margin-right: 45px;
 }
-
+.socialImg1 {
+    margin-right: 45px;
+    margin-bottom: 10px;
+}
 
 h1 {
 /* margin-top: 150px; */
@@ -115,25 +123,28 @@ button {
   }
 
 h2 {
-    top: 723px;
-    margin-left: 105px;
-    margin-top: 50px;
+    margin-top: 30px;
     width: 137px;
     height: 53px;
-    text-align: left;
+    text-align: center;
     font: normal normal normal 40px/55px Tamil MN;
     letter-spacing: -3.38px;
     color: #292929;
 }
 
+h5 {
+    text-align: center;
+    font: normal normal normal 45px/79px Tamil MN;
+    color: #292929;
+    }
 h3 {
 text-align: center;
 font: normal normal normal 45px/79px Tamil MN;
 color: #292929;
+margin-left: 40px;
 }
 h4 {
     margin-top: 0;
-    margin-bottom: 10px;
     font: normal normal normal 55px/91px Tamil MN;
     letter-spacing: 0px;
     color: #292929;
@@ -147,21 +158,26 @@ font: normal normal normal 30px/45px Tamil Sangam MN;
 letter-spacing: 0px;
 color: #292929;
 }
-.col-md-6{
-    
-}
+
 .wrapperTitles {
     display: flex;
      justify-content: space-evenly;
-     align-items:left
+     flex-wrap: wrap;
+    align-content: flex-start;
     }
-    .itemDiv {
-    display: inline-block;
-       justify-content: space-evenly;
-       align-items:left;
-    }
+
+.itemDiv {
+display: inline-block;
+    justify-content: space-between;
+    align-items:left;
+    margin-right: 15px;
+    /* flex-wrap: wrap;
+    margin: 25px; */
+}
+
 .sectionServices {
-    margin-top: 100px;
+
+    margin-top: 50px;
 }
 .serviceTitle {
     margin-bottom: 15px;
@@ -172,14 +188,33 @@ font: normal normal normal 30px/45px Tamil Sangam MN;
 letter-spacing: 0px;
 color: #292929;
 }
+.servicesText2{
+    text-align: left;
+    font: normal normal normal 25px/45px Tamil Sangam MN;
+    letter-spacing: 0px;
+    color: #292929;
+    }
+.box-s {
+    background-color: #555;
+    color:#fff;
+    text-align: center;
+    
+}
 
-#container {
+.box-s .row div {
+    border:4px solid black;
+}
+
+/* #container {
 height: 645px;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-}
+} */
 
+.contactSection {
+    margin-top: 50px;
+}
 form { max-width:420px; margin:50px auto; }
 
 .feedback-input {

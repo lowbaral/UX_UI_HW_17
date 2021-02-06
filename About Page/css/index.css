@@ -1,0 +1,177 @@
+body{
+ max-width: 1366px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: grey .5px solid;
+    -webkit-box-shadow: 0px 3px 6px #00000029;
+    -moz-box-shadow: 0px 3px 6px #00000029;
+         box-shadow: 0px 3px 6px #00000029; */
+}
+.nav-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-Group {
+    margin-right: 45px;
+}
+
+.nav-item{
+    margin: 0 22px;
+    text-decoration: none;
+    font: normal normal normal 30px/49px Tamil MN;
+    letter-spacing: -3px;
+    color: #292929;
+    position: relative;
+    }
+    .nav-item:after {    
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #292929;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+      }
+    .nav-item:hover:after { 
+        width: 100%; 
+        left: 0; 
+      }
+.img {
+top: 242px;
+left: 1101px;
+width: 566px;
+height: 566px;
+background: transparent url('../MySite/Images/IMG_0005.jpeg') 0% 0% no-repeat padding-box;
+padding: 1%;
+}
+.profileImg {
+display: flex;
+justify-content: right;
+margin-right: 125px;
+}
+/* a:hover{} */
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+.socials {
+z-index: 100;
+align-content: space-around;
+margin-right: 75px;
+position: relative;
+}
+
+.socialImg {
+    margin-right: 45px;
+}
+.hero-bkg-animated {
+background: url(../Images/topography.png) repeat 0 0;
+width: 100%;
+margin: 0;
+text-align: center;
+height: 668px;
+padding-top: 50px;
+box-sizing: border-box;
+-webkit-animation: slide 20s linear infinite;
+z-index: -1;
+}
+
+
+@-webkit-keyframes slide {
+  from { background-position: 0 0; }
+  to { background-position: -400px 0; }
+}
+
+h1 {
+/* margin-top: 150px; */
+align: left;
+    margin-left: 105px;
+    font-size: 45px;
+}
+
+h3 {
+text-align: left;
+font: normal normal normal 45px/79px Tamil MN;
+color: #292929;
+/* padding-top: 100px; */
+margin-block-start: 0;
+    /* margin-block-end: 0;
+    margin-inline-start: 0px; */
+    margin-inline-end: 0px;
+}
+
+p {
+display: flex;
+margin-left: 105px;
+width: 683px;
+height: 336px;
+text-align: left;
+font: normal normal normal 30px/45px Tamil Sangam MN;
+letter-spacing: 0px;
+color: #292929;
+}
+
+#container {
+height: 645px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.selectedPics {
+    margin: 50px;
+ }
+.inspirePhotos {
+position: relative;
+display: inline-block;
+background: 0% 0% no-repeat padding-box;
+border-radius: 50px;
+}
+
+
+footer {
+    padding: 1%;
+    text-align: center;
+    align-self: flex-end;
+    margin-bottom: 35px;
+}
+.footer-item{
+margin: 0 22px;
+text-decoration: none;
+font: normal normal normal 30px/49px Tamil MN;
+letter-spacing: -3px;
+color: #292929;
+}
+.footer-item{
+margin: 0 22px;
+text-decoration: none;
+font: normal normal normal 30px/49px Tamil MN;
+letter-spacing: -3px;
+color: #292929;
+position: relative;
+}
+.footer-item:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #292929;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+.footer-item:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }

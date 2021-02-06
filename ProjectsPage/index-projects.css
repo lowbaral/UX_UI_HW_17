@@ -1,0 +1,230 @@
+body{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: grey .5px solid;
+    -webkit-box-shadow: 0px 3px 6px #00000029;
+    -moz-box-shadow: 0px 3px 6px #00000029;
+         box-shadow: 0px 3px 6px #00000029; */
+}
+.nav-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-Group {
+    margin-right: 45px;
+}
+.nav-item{
+margin: 0 22px;
+text-decoration: none;
+font: normal normal normal 30px/49px Tamil MN;
+letter-spacing: -3px;
+color: #292929;
+position: relative;
+}
+.nav-item:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #292929;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+.nav-item:hover:after {
+    width: 100%;
+    left: 0;
+  }
+
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+.buttonResume {
+    margin-left: 105px
+}
+button {
+    /* border: none;
+    color: #292929;
+    padding: 15px 32px;
+    text-align: center;
+
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px; */
+
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font: normal normal normal 24px/49px Tamil MN;
+    width: 193px;
+    height: 60px;
+    cursor: pointer;
+    background: #414C41 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    border-color: none;
+    padding: 0;
+    border-width: 0;
+    border-style: none;
+    border-image: initial;
+  }
+  button:hover{
+      background-color: #7C907C;
+      box-shadow: 0px 3px 6px #00000029;
+  }
+   button:after {
+    background: transparent linear-gradient(180deg, #667966 0%, #2A332A 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 2px #00000029;
+    transition: .5s;
+   }
+
+h1{
+    font: Tamil Sangam MN;
+}
+h3 {
+text-align: center;
+font: normal normal normal 45px/79px Tamil MN;
+color: #292929;
+}
+
+
+
+#container {
+height: 2500px;
+width: 1366px;
+display: flex;
+flex-wrap: wrap;
+align-content: space-evenly;
+}
+
+.caseStudy1 {
+width: 1200px;
+height: 500px;
+background: lightgrey 0% 0% no-repeat padding-box;
+transition-property: background, border-radius;
+transition-duration: .5s;
+transition-timing-function: linear;
+justify-content: right;
+/* background-image: url(./Images/Projects\ Page1@2x.png); */
+background-size: 1200px 500px;
+}
+
+.caseStudy2 {
+    width: 1200px;
+height: 500px;
+background:lightgrey 0% 0% no-repeat padding-box;
+transition-property: background, border-radius;
+transition-duration: .5s;
+transition-timing-function: linear;
+justify-content: right;
+}
+.caseStudy3 {
+    width: 1200px;
+height: 500px;
+background:lightgrey 0% 0% no-repeat padding-box;
+transition-property: background, border-radius;
+transition-duration: .5s;
+transition-timing-function: linear;
+justify-content: right;
+}
+.caseStudy4 {
+    width: 1200px;
+height: 500px;
+background:lightgrey 0% 0% no-repeat padding-box;
+transition-property: background, border-radius;
+transition-duration: .5s;
+transition-timing-function: linear;
+justify-content: right;
+}
+.leftBox{
+    height: 300px;
+    width:  550px;
+    justify-content: left;
+    background: white 0% 0% no-repeat padding-box;
+    display: flex;
+    margin-top: 100px;
+    position: relative;
+    opacity: 85%;
+}
+
+.txt-box {
+margin: auto;
+position: relative;
+text-align: center;
+font: Tamil MN;
+opacity: 100%;
+}
+p{
+    font: 25px;
+    margin: 5%
+}
+.zoom {
+    transition: transform .2s; /* Animation */
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+  }
+
+  .zoom:hover {
+    transform: scale(1.08); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+/* .tanBlock:hover, .tanBlock1:hover{
+background: #414C41;
+border-radius: 50%;
+} */
+
+.socials {
+    align-content: space-around;
+    }
+.socialImg {
+    margin-right: 45px;
+    transition-property: background, border-radius;
+transition-duration: .5s;
+transition-timing-function: linear;
+margin: 1em;
+margin-top: 40px;
+}
+footer {
+
+    text-align: center;
+    align-self: flex-end;
+    padding: 2%;
+    margin-top: 540px;
+}
+.footer-item{
+margin: 0 22px;
+text-decoration: none;
+font: normal normal normal 30px/49px Tamil MN;
+letter-spacing: -3px;
+color: #292929;
+position: relative;
+}
+.footer-item:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #292929;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+.footer-item:hover:after {
+    width: 100%;
+    left: 0;
+  }

@@ -68,38 +68,13 @@ margin-right: 125px;
     text-align: center;
 }
 
-.socials {
-align-content: space-around;
-margin-left: 105px;
-}
 
-.socialImg {
-    margin-right: 45px;
-    transition-property: background, border-radius;
-transition-duration: .5s;
-transition-timing-function: linear;
-margin: 1em;
-}
-/* .circle-button{
-    display: inline-block;
-    font-size: 2rem;
-    transition: all 0.2s ease;
-  }
-.circle-button:hover{
-    animation: circle-anim 0.3s ease forwards;
-    transition: all 0.4s ease;
-  } */
-
-/* .socialImg:hover {
-    background: #414C41;
-    border-radius: 50%;
-} */
 .hero-bkg-animated {
-    background: gray url(../Images/topography.png) repeat 0 0;
+    background: url(../Images/topography.png) repeat 0 0;
     width: 100%;
     margin: 0;
     text-align: center;
-    height: 688px;
+    height: 588px;
     padding-top: 50px;
     box-sizing: border-box;
     -webkit-animation: slide 20s linear infinite;
@@ -163,11 +138,12 @@ button {
    }
 h2 {
     top: 723px;
-    margin-left: 105px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
     width: 137px;
     height: 53px;
-    text-align: left;
+    text-align: center;
     font: normal normal normal 40px/55px Tamil MN;
     letter-spacing: -3.38px;
     color: #292929;
@@ -205,7 +181,16 @@ display: flex;
 display: inline-block;
    justify-content: space-evenly;
    align-items:center;
+   height: 261px;
+    width: 215px;
 }
+.itemDiv {
+    display: inline-block;
+       justify-content: space-evenly;
+       align-items:center;
+       height: 261px;
+        width: 215px;
+    }
 .sectionServices {
     margin-top: 525px;
 }
@@ -266,18 +251,28 @@ right: 50px;
 font-size: 35px;
 }
 .tanBlock:hover, .tanBlock1:hover{
-    background: #414C41;
-    border-radius: 50%;
-  }
+background: #414C41;
+border-radius: 50%;
+}
   .mockup-Img1 {
-    position: absolute;
-    top: 100px;
-    right: 10px;
-    }
+position: absolute;
+top: 100px;
+right: 10px;
+}
 .mockup-Img {
+position: absolute;
+top: 60px;
+right: 155px;
+}
+.mockup-Img2 {
+position: absolute;
+top: 150px;
+right: 25px;
+}
+.mockup-Img3 {
     position: absolute;
-    top: 60px;
-    right: 150px;
+    top: 130px;
+    right: 110px;
     }
 li {
     text-align: left;
@@ -296,10 +291,38 @@ ol {
     margin-inline-end: 0px;
     padding-inline-start: 0px;
 }
+.socials {
+    align-content: space-around;
+    }
+    .socialImg {
+        margin-right: 45px;
+        transition-property: background, border-radius;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+    margin: 1em;
+    margin-top: 40px;
+
+    }
+    /* .circle-button{
+        display: inline-block;
+        font-size: 2rem;
+        transition: all 0.2s ease;
+      }
+    .circle-button:hover{
+        animation: circle-anim 0.3s ease forwards;
+        transition: all 0.4s ease;
+      } */
+    
+    /* .socialImg:hover {
+        background: #414C41;
+        border-radius: 50%;
+    } */
 footer {
-    padding: 7%;
+
     text-align: center;
     align-self: flex-end;
+    padding: 2%;
+    margin-top: 40px;
 }
 .footer-item{
 margin: 0 22px;
