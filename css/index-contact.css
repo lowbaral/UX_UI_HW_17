@@ -21,10 +21,10 @@ header {
 }
 .nav-item{
 margin: 0 22px;
-text-decoration: none;
+text-decoration: none !important;
 font: normal normal normal 30px/49px Tamil MN;
 letter-spacing: -3px;
-color: #292929;
+color: #292929 !important;
 position: relative;
 }
 .nav-item:after {    
@@ -276,10 +276,10 @@ footer {
 }
 .footer-item{
 margin: 0 22px;
-text-decoration: none;
+text-decoration: none !important;
 font: normal normal normal 30px/49px Tamil MN;
 letter-spacing: -3px;
-color: #292929;
+color: #292929 !important;
 position: relative;
 }
 .footer-item:after {    
